@@ -7,19 +7,17 @@ public class Carro {
 	int ano;
 	String placa;
 	String cor;
-	int velocidade = 50;
 	
 	public void ligar() {
-		System.out.println(modelo + " ligou");
+		
 	}
 	
 	public void desligar() {
 		
 	}
 	
-	public void acelerar(int valor) {
+	public void acelerar() {
 		
-		velocidade = velocidade + valor;
 	}
 	
 	public void frear() {

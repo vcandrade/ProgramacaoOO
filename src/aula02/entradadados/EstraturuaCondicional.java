@@ -1,4 +1,4 @@
-package aula02;
+package aula02.entradadados;
 
 public class EstraturuaCondicional {
 

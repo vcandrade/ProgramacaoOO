@@ -1,4 +1,4 @@
-package aula05;
+package aula05.metodoconstrutor;
 
 public class CarroTeste {
 
@@ -14,8 +14,3 @@ public class CarroTeste {
 		System.out.println(carro3);
 	}
 }
-
-
-
-
-

@@ -1,4 +1,4 @@
-package aula04;
+package aula05.metodoconstrutor;
 
 public class Carro {
 
@@ -7,9 +7,29 @@ public class Carro {
 	int ano;
 	String placa;
 	String cor;
-	boolean ligado = false; // true = ligado; false = desligado
-	int velocidade = 0;
+	boolean ligado;
+	int velocidade;
+	
+	public Carro() {
+		
+		this("", "", 0, "", "");
+	}
+	
+	public Carro(String marca, String modelo, int ano) {
+		
+		this(marca, modelo, ano, "", "");
+	}
 
+	public Carro(String marca, String modelo, int ano, String placa, String cor) {
+		
+		this.marca = marca;
+		this.modelo = modelo;
+		this.ano = ano;
+		this.placa = placa;
+		this.cor = cor;
+		this.ligado = false;
+		this.velocidade = 0;
+	}
 	public void ligar() {
 
 		ligado = true;

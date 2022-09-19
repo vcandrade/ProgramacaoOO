@@ -20,9 +20,3 @@ public class ExemploSaidaDados {
 		System.out.printf("%s ministrada pelo Prof. %s", disciplina, professor);
 	}
 }
-
-
-
-
-
-

@@ -20,20 +20,7 @@ public class GalinhaTeste {
 		System.out.println(galinha1.nome + " botou " + galinha1.quantidadeOvos + " ovo(s).");
 		System.out.println(galinha2.nome + " botou " + galinha2.quantidadeOvos + " ovo(s).");
 		System.out.println(galinha3.nome + " botou " + galinha3.quantidadeOvos + " ovo(s).");
-		System.out.println("Quantidade Total: " + Galinha.quantidadeOvosGranja);
-		
-		Galinha galinha4 = new Galinha("Teste");
-		galinha4.botar();
 		
 		System.out.println("Quantidade Total: " + Galinha.quantidadeOvosGranja);	
 	}
 }
-
-
-
-
-
-
-
-
-

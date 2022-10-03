@@ -1,4 +1,4 @@
-package aulo08.associacaoclasse;
+package aula08.associacaoclasse;
 
 public class Endereco {
 

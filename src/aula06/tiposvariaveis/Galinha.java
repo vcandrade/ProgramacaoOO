@@ -13,6 +13,6 @@ public class Galinha {
 	public void botar() {
 		
 		this.quantidadeOvos++;
-		this.quantidadeOvosGranja++;
+		quantidadeOvosGranja++;
 	}
 }

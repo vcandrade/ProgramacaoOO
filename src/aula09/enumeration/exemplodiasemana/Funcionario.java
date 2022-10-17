@@ -28,14 +28,3 @@ public class Funcionario {
 		System.out.println("Dia da Semana da folga: " + this.folga.getDiaSemanaExtenso());
 	}
 }
-
-
-
-
-
-
-
-
-
-
-

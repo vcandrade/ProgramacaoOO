@@ -21,6 +21,10 @@ public class Pessoa {
 		this.endereco = endereco;
 	}
 	
+	public Endereco getEndereco() {
+		return this.endereco;
+	}
+	
 	public Pessoa(String nome, 
 			String dataNascimento, 
 			String sexo, 

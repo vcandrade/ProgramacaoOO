@@ -1,4 +1,4 @@
-package aula14;
+package aula14.classemetodoabstrato;
 
 public abstract class Funcionario {
 

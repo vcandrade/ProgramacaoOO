@@ -1,4 +1,4 @@
-package aula13.exemplo01;
+package aula13.polimorfismo.sobreposicao;
 
 public class Gato extends Mamifero {
 

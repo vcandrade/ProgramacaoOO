@@ -32,11 +32,5 @@ public class CarroTeste {
 		System.out.println(carro1);
 		System.out.println(carro2);
 		System.out.println(carro3);
-
-		// invocar os métodos de cada objeto
-		carro2.ligar();
-		carro2.acelerar();
-		carro3.ligar();
-		carro3.desligar();
 	}
 }

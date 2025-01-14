@@ -1,6 +1,6 @@
 package aula05.metodos;
 
-public class Carro {
+public class Carro extends Object {
 
 	String modelo;
 	String marca;
@@ -28,7 +28,9 @@ public class Carro {
 		System.out.println(marca + " " + modelo + " está freando.");
 	}
 
+	@Override
 	public String toString() {
-		return modelo + " " + marca + " " + ano + " " + placa + " " + cor;
+		return "Carro [modelo=" + modelo + ", marca=" + marca + ", ano=" + ano + ", placa=" + placa + ", cor=" + cor
+				+ "]";
 	}
 }

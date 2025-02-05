@@ -5,12 +5,34 @@ import java.util.Scanner;
 
 public class Calculadora {
 	
-	public void somar() {
+	public void somar() throws InputMismatchException, Exception {
 		
+		Scanner input = new Scanner(System.in);
+
+		System.out.print("Informe o valor de x: ");
+		int x = input.nextInt();
+
+		System.out.print("Informe o valor de y: ");
+		int y = input.nextInt();
+
+		int resultado = x + y;
+
+		System.out.println(x + " + " + y + " = " + resultado);
 	}
 	
-	public void subtrair() {
+	public void subtrair() throws InputMismatchException, Exception {
 		
+		Scanner input = new Scanner(System.in);
+
+		System.out.print("Informe o valor de x: ");
+		int x = input.nextInt();
+
+		System.out.print("Informe o valor de y: ");
+		int y = input.nextInt();
+
+		int resultado = x - y;
+
+		System.out.println(x + " - " + y + " = " + resultado);
 	}
 
 	public void dividir() throws ArithmeticException, InputMismatchException, Exception {
@@ -25,8 +47,6 @@ public class Calculadora {
 
 		int resultado = numerador / denominador;
 
-		System.out.println("Resultado: " + resultado);
-
-		input.close();
+		System.out.println(numerador + " / " + denominador + " = " + resultado);
 	}
 }

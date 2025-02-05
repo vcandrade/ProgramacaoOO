@@ -3,8 +3,6 @@ package aula19.excecoespersonalizadas;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-import aula19.clausulathrows.NumeroNaoNaturalException;
-
 public class Calculadora {
 
 	public void dividir() throws ArithmeticException, InputMismatchException, Exception {
@@ -24,7 +22,7 @@ public class Calculadora {
 		input.close();
 	}
 
-	public void calcularRaizQuadrada(int x) throws NumeroNaoNaturalException {
+	public void calcularRaizQuadrada(int x) throws NumeroNaoNaturalException, Exception {
 
 		if (x < 0) {
 

@@ -1,7 +1,5 @@
 package aula19.excecoespersonalizadas;
 
-import aula19.clausulathrows.NumeroNaoNaturalException;
-
 public class CalculadoraTeste {
 
 	public static void main(String[] args) {
@@ -13,6 +11,10 @@ public class CalculadoraTeste {
 
 		} catch (NumeroNaoNaturalException e) {
 
+			System.out.println(e.getMessage());
+		
+		} catch (Exception e) {
+			
 			System.out.println(e.getMessage());
 		}
 	}

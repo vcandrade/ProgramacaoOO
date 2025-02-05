@@ -9,6 +9,9 @@ public class CalculadoraTeste {
 		try {
 
 			Calculadora calc = new Calculadora();
+			
+			calc.somar();
+			calc.subtrair();
 			calc.dividir();
 		
 		} catch (ArithmeticException ae) {

@@ -1,4 +1,4 @@
-package aula19.clausulathrows;
+package aula19.excecoespersonalizadas;
 
 public class NumeroNaoNaturalException extends Exception {
 

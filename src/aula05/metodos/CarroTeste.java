@@ -36,7 +36,7 @@ public class CarroTeste {
 
 		carro3.frear();
 
-		System.out.println("=======================================================");
+		System.out.println("================================================================================");
 
 		// obtenção dos valores dos atributos dos carros por meio do método toString()
 		System.out.println(carro1);

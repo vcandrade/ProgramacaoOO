@@ -9,10 +9,8 @@ public class Carro {
 	String placa;
 	String cor;
 
-	// Métodos da Classe Carro
+	// Métodos da classe Carro
 	public void ligar() {
-
-		modelo.length();
 
 		System.out.println(marca + " " + modelo + " está ligando.");
 	}

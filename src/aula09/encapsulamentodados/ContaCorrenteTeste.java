@@ -8,7 +8,7 @@ public class ContaCorrenteTeste {
 
 		conta1.imprimirSaldo();
 
-		conta1.setNomeTitular("Maria de Oliveira");
+		conta1.setNomeTitular("João da Silva Ferraz");
 
 		System.out.println(conta1.getNumeroConta());
 		System.out.println(conta1.getNomeTitular());

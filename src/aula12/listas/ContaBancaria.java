@@ -1,12 +1,12 @@
-package aula09.encapsulamentodados;
+package aula12.listas;
 
-public class ContaCorrente {
+public class ContaBancaria {
 
 	private int numeroConta;
 	private String nomeTitular;
 	private double saldo;
 
-	public ContaCorrente(int numeroConta, String nomeTitular) {
+	public ContaBancaria(int numeroConta, String nomeTitular) {
 
 		this.numeroConta = numeroConta;
 		this.nomeTitular = nomeTitular;

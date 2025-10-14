@@ -2,8 +2,9 @@ package aula14.mapas;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Map.Entry;
 
-public class Exemplo06KeySet {
+public class Exemplo09MetodoEntrySet {
 
 	public static void main(String[] args) {
 
@@ -19,12 +20,12 @@ public class Exemplo06KeySet {
 		alunos.put(333333, aluno3);
 		alunos.put(444444, aluno4);
 
-		// obter apenas a chave do elemento
-		for (Integer chave : alunos.keySet()) {
+		for (Entry<Integer, Aluno> entry : alunos.entrySet()) {
 
-			// obter o valor pela chave
-			Aluno aluno = alunos.get(chave);
+			int chave = entry.getKey();
+			Aluno aluno = entry.getValue();
 
+			System.out.println("Chave: " + chave);
 			System.out.println("RA: " + aluno.getRa());
 			System.out.println("Nome: " + aluno.getNome());
 			System.out.println("Curso: " + aluno.getCurso());

@@ -3,7 +3,7 @@ package aula14.mapas;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Exemplo11APIStream {
+public class Exemplo06MetodoPutAtualizacao {
 
 	public static void main(String[] args) {
 
@@ -18,15 +18,18 @@ public class Exemplo11APIStream {
 		alunos.put(222222, aluno2);
 		alunos.put(333333, aluno3);
 		alunos.put(444444, aluno4);
-
-		System.out.println("Alunos de Tecnologia em Análise e Desenvolvimento de Sistemas:");
 		
-		alunos.values().stream()
-			.filter(aluno -> aluno.getCurso().equals("Tecnologia em Análise e Desenvolvimento de Sistemas"))
-			.forEach(aluno -> {
-				System.out.println("RA: " + aluno.getRa());
-				System.out.println("Nome: " + aluno.getNome());
-				System.out.println("Curso: " + aluno.getCurso());
-			});
+		System.out.println(alunos.get(222222));
+		
+		Aluno aluno5 = new Aluno(222222, "Luiz Melo", "Engenharia Mecânica");
+		alunos.put(222222, aluno5);
+		System.out.println("Aluno 222222 atualizado com sucesso.");
+		
+		System.out.println(alunos.get(222222));
 	}
 }
+
+
+
+
+

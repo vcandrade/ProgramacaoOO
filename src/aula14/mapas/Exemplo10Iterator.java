@@ -1,12 +1,14 @@
 package aula14.mapas;
 
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.Map;
+import java.util.Map.Entry;
 
-public class Exemplo05MetodoPutAtualizacao {
+public class Exemplo10Iterator {
 
 	public static void main(String[] args) {
-
+		
 		Aluno aluno1 = new Aluno(111111, "João da Silva", "Tecnologia em Análise e Desenvolvimento de Sistemas");
 		Aluno aluno2 = new Aluno(222222, "Maria de Oliveira", "Bacharelado em Ciência da Computação");
 		Aluno aluno3 = new Aluno(333333, "Ricardo Carvalho", "Bacharelado em Ciências Biológicas");
@@ -18,18 +20,20 @@ public class Exemplo05MetodoPutAtualizacao {
 		alunos.put(222222, aluno2);
 		alunos.put(333333, aluno3);
 		alunos.put(444444, aluno4);
+
+		Iterator<Map.Entry<Integer, Aluno>> it = alunos.entrySet().iterator();
 		
-		System.out.println(alunos.get(222222));
-		
-		Aluno aluno5 = new Aluno(222222, "Luiz Melo", "Engenharia Mecânica");
-		alunos.put(222222, aluno5);
-		System.out.println("Aluno 222222 atualizado com sucesso.");
-		
-		System.out.println(alunos.get(222222));
+		while (it.hasNext()) {
+		   
+			Entry<Integer, Aluno> entry = it.next();
+			
+			int chave = entry.getKey();
+			Aluno aluno = entry.getValue();
+			
+			System.out.println("Chave: " + chave);
+			System.out.println("RA: " + aluno.getRa());
+			System.out.println("Nome: " + aluno.getNome());
+			System.out.println("Curso: " + aluno.getCurso());
+		}
 	}
 }
-
-
-
-
-

@@ -2,12 +2,11 @@ package aula14.mapas;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Map.Entry;
 
-public class Exemplo10ForEachLambda {
+public class Exemplo08MetodoValues {
 
 	public static void main(String[] args) {
-		
+
 		Aluno aluno1 = new Aluno(111111, "João da Silva", "Tecnologia em Análise e Desenvolvimento de Sistemas");
 		Aluno aluno2 = new Aluno(222222, "Maria de Oliveira", "Bacharelado em Ciência da Computação");
 		Aluno aluno3 = new Aluno(333333, "Ricardo Carvalho", "Bacharelado em Ciências Biológicas");
@@ -20,16 +19,12 @@ public class Exemplo10ForEachLambda {
 		alunos.put(333333, aluno3);
 		alunos.put(444444, aluno4);
 
-		alunos.forEach((chave, aluno) -> {
-			
-			System.out.println("Chave: " + chave);
+		// obter apenas o valor do elemento
+		for (Aluno aluno : alunos.values()) {
+
 			System.out.println("RA: " + aluno.getRa());
 			System.out.println("Nome: " + aluno.getNome());
-			System.out.println("Curso: " + aluno.getCurso()); 
-		});
+			System.out.println("Curso: " + aluno.getCurso());
+		}
 	}
 }
-
-
-
-

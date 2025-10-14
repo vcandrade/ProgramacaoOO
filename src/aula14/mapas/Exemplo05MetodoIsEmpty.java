@@ -3,7 +3,7 @@ package aula14.mapas;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Exemplo07MetodoValues {
+public class Exemplo05MetodoIsEmpty {
 
 	public static void main(String[] args) {
 
@@ -14,17 +14,18 @@ public class Exemplo07MetodoValues {
 
 		Map<Integer, Aluno> alunos = new HashMap<>();
 
-		alunos.put(111111, aluno1);
-		alunos.put(222222, aluno2);
-		alunos.put(333333, aluno3);
-		alunos.put(444444, aluno4);
+		// alunos.put(111111, aluno1);
+		// alunos.put(222222, aluno2);
+		// alunos.put(333333, aluno3);
+		// alunos.put(444444, aluno4);
 
-		// obter apenas o valor do elemento
-		for (Aluno aluno : alunos.values()) {
+		if (alunos.isEmpty()) {
 
-			System.out.println("RA: " + aluno.getRa());
-			System.out.println("Nome: " + aluno.getNome());
-			System.out.println("Curso: " + aluno.getCurso());
+			System.out.println("Não há elementos no mapa.");
+
+		} else {
+
+			System.out.println("Mapa possui " + alunos.size() + " elementos.");
 		}
 	}
 }

@@ -28,12 +28,12 @@ public class CarroTeste {
 		carro3.placa = "XYZ-5555";
 		carro3.cor = "Branco";
 
-		carro1.ligar();
-		carro1.desligar();
-
-		carro3.acelerar();
-
-		carro2.frear();
+//		carro1.ligar();
+//		carro1.desligar();
+//
+//		carro3.acelerar();
+//
+//		carro2.frear();
 
 		// representação textual dos objetos por meio do método toString()
 		System.out.println("============================================");

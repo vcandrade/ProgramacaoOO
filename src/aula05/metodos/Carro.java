@@ -1,6 +1,6 @@
 package aula05.metodos;
 
-public class Carro {
+public class Carro extends Object {
 
 	// Atributos da classe Carro
 	String modelo;

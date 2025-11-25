@@ -30,7 +30,7 @@ public class Calculadora {
 
 		} catch (Exception e) {
 
-			System.out.println("Erro: " + e.getLocalizedMessage());
+			System.out.println("Erro: " + e.getMessage());
 
 		} finally {
 

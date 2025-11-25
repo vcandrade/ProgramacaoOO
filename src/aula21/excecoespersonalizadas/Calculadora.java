@@ -5,9 +5,14 @@ import java.util.Scanner;
 
 public class Calculadora {
 
-	public void dividir() throws ArithmeticException, InputMismatchException, Exception {
+	private Scanner input;
+	
+	public Calculadora() {
+		
+		input = new Scanner(System.in);
+	}
 
-		Scanner input = new Scanner(System.in);
+	public void dividir() throws ArithmeticException, InputMismatchException, Exception {
 
 		System.out.print("Informe o valor do numerador: ");
 		int numerador = input.nextInt();
@@ -20,8 +25,6 @@ public class Calculadora {
 	}
 
 	public void calcularRaizQuadrada() throws NumeroNaoNaturalException, Exception {
-
-		Scanner input = new Scanner(System.in);
 
 		System.out.print("Informe o valor de x: ");
 		int x = input.nextInt();

@@ -1,18 +1,18 @@
-package aula15.heranca.exemplo01;
+package aula16.polimorfismo.coercao.exemplo02;
 
 public class Veiculo {
 
 	protected String modelo;
 	protected String fabricante;
-	protected int anoFabricacao;
+	protected int ano;
 	protected int numeroPassageiros;
 	protected String combustivel;
 
-	public Veiculo(String modelo, String fabricante, int anoFabricacao, int numeroPassageiros, String combustivel) {
+	public Veiculo(String modelo, String fabricante, int ano, int numeroPassageiros, String combustivel) {
 
 		this.modelo = modelo;
 		this.fabricante = fabricante;
-		this.anoFabricacao = anoFabricacao;
+		this.ano = ano;
 		this.numeroPassageiros = numeroPassageiros;
 		this.combustivel = combustivel;
 	}

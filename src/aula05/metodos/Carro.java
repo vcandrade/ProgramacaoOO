@@ -33,7 +33,6 @@ public class Carro {
 	// implementar o método toString()
 	@Override
 	public String toString() {
-		return "Carro [modelo=" + modelo + ", marca=" + marca + ", ano=" + ano + ", placa=" + placa + ", cor=" + cor
-				+ "]";
+		return "Carro [modelo=" + modelo + ", marca=" + marca + ", ano=" + ano + ", placa=" + placa + ", cor=" + cor + "]";
 	}
 }

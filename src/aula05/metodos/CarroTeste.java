@@ -8,7 +8,7 @@ public class CarroTeste {
 		Carro carro1 = new Carro();
 		Carro carro2 = new Carro();
 		Carro carro3 = new Carro();
-		
+
 		// definição dos valores para cada objeto
 		carro1.modelo = "458 Italia";
 		carro1.marca = "Ferrari";
@@ -32,7 +32,7 @@ public class CarroTeste {
 		carro1.ligar();
 		carro3.acelerar();
 		carro3.desligar();
-		
+
 		System.out.println("================================================================================");
 
 		// impressão dos dados de cada objeto por meio do método toString()

@@ -1,0 +1,22 @@
+package aula02;
+
+public class OperadorTernario {
+
+	public static void main(String[] args) {
+
+		int idade = 17;
+
+		// Operador Ternário
+		String result = (idade >= 18) ? "é maior de idade" : "é menor de idade";
+		System.out.println(result);
+
+//		if (idade >= 18) {
+//			
+//			System.out.println("é maior de idade");
+//		
+//		} else {
+//			
+//			System.out.println("é menor de idade");
+//		}
+	}
+}

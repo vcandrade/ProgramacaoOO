@@ -2,7 +2,7 @@ package aula03.classeobjeto;
 
 public class CarroTeste {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) {	
 
 		// instanciando a classe Carro
 		Carro carro1 = new Carro();

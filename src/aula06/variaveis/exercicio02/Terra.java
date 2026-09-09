@@ -10,3 +10,7 @@ public class Terra {
 		System.out.println("Tempo de Queda: " + tempo + "s.");
 	}
 }
+
+
+
+

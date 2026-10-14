@@ -1,4 +1,4 @@
-package aula12.listas;
+package aula12.listas.exemplo01;
 
 public class Pessoa {
 

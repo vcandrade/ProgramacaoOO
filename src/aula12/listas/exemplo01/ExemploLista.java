@@ -1,4 +1,4 @@
-package aula12.listas;
+package aula12.listas.exemplo01;
 
 import java.util.ArrayList;
 import java.util.List;
